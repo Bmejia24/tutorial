@@ -17,16 +17,18 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="play" translatesAutoresizingMaskIntoConstraints="NO" id="ed1-Kr-KPJ">
-                                <rect key="frame" x="87" y="384" width="240" height="128"/>
+                                <rect key="frame" x="157" y="398" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="9fe-kH-sNc"/>
+                                    <constraint firstAttribute="width" constant="100" id="Lgm-qg-SzD"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemTealColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ed1-Kr-KPJ" secondAttribute="bottom" constant="350" id="clG-fH-fFB"/>
-                            <constraint firstItem="ed1-Kr-KPJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="340" id="isP-eY-ljY"/>
-                            <constraint firstItem="ed1-Kr-KPJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="qmY-gc-ThL"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ed1-Kr-KPJ" secondAttribute="trailing" constant="87" id="t2y-as-Yvb"/>
+                            <constraint firstItem="ed1-Kr-KPJ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="CGT-ht-vd5"/>
+                            <constraint firstItem="ed1-Kr-KPJ" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="ubA-eu-Nul"/>
                         </constraints>
                     </view>
                 </viewController>
